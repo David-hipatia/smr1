@@ -1,0 +1,138 @@
+<html>
+	<head>
+		<title>PaginaWeb</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="PaginaWeb.css">
+<body>
+	<img src="imagenes/nba.png" width="100px"></img>
+	<header>
+		<a href id="logomenu"><img src="imagenes/logomenu.png" width="30px"></img></a>
+		<a href="InicioSesion.html" class="ln-inicio"><b>IniciarSesion</b></a>
+		<a href class="ln-tienda"><b>Tienda</b></a>
+		<a href="https://watch.nba.com/packages?ls=leaguepass:nbacom:packages:rd" id="nbapass"><img src="imagenes/nba pass.png" width="200px"></img></a>
+	</header>
+	<nav id="menu">
+		<ul class="nivel1">
+			<li class="nivel1"><a href="#1" class="nivel1">Equipos</a>
+				<ul class="nivel2">
+					<li class="nivel2">
+						<a href="#11" class="nivel2">Conferencia Este</a>
+						<ul>
+							<li><a href="#112">Milwaukee Bucks</a></li>
+							<li><a href="#113">Miami Heat</a></li>
+							<li><a href="#114">Toronto Raptors</a></li>
+							<li><a href="#115">Boston Celtics</a></li>
+							<li><a href="#116">Indiana Pacers</a></li>
+							<li><a href="#117">Philadelphia 76ers</a></li>
+							<li><a href="#118">Orlando Magic</a></li>
+							<li><a href="#119">Brooklyn Nets</a></li>
+							<li><a href="#120">Detroit Pistons</a></li>
+							<li><a href="#121">Chicago Bulls</a></li>
+							<li><a href="#122">Charlotte Hornets</a></li>
+							<li><a href="#123">Washington Wizards</a></li>
+							<li><a href="#124">Cleveland Cavaliers</a></li>
+							<li><a href="#125">NewYork Knicks</a></li>
+							<li><a href="#126">Atlanta Hawks</a></li>
+						</ul>
+					</li>
+					<li class="nivel2">
+						<a href="#12" class="nivel2">Conferencia Oeste</a>
+						<ul>
+							<li><a href="#127">Los Angeles Lakers</a></li>
+							<li><a href="#128">Denver Nuggets</a></li>
+							<li><a href="#129">Los Angeles Clippers</a></li>
+							<li><a href="#130">Utah Jazz</a></li>
+							<li><a href="#131">Dallas Mavericks</a></li>
+							<li><a href="#132">Houston Rockets</a></li>
+							<li><a href="#133">Oklahoma City Thunder</a></li>
+							<li><a href="#134">Memphis Grizzlies</a></li>
+							<li><a href="#135">Phoenix Suns</a></li>
+							<li><a href="#136">San Antonio Spurs</a></li>
+							<li><a href="#137">Portland Trail Blazers</a></li>
+							<li><a href="#138">NewOrleans Pelicans</a></li>
+							<li><a href="#139">Minnesota Timberwolves</a></li>
+							<li><a href="#140">Sacramento Kings</a></li>
+							<li><a href="#141">Golden State Warriors</a></li>
+						</ul>
+					</li>
+				</ul>
+			</li>
+			<li class="nivel1"><a href="#2" class="nivel1">Mejores Estadisticas</a>
+				<ul class="nivel2">
+					<li class="nivel2"><a href="#21" class="nivel2">Asistencias</a></li>
+					<li class="nivel2"><a href="#22" class="nivel2">Puntos</a></li>
+					<li class="nivel2"><a href="#23" class="nivel2">Rebotes</a></li>
+					<li class="nivel2"><a href="#24" class="nivel2">Robos</a></li>
+				</ul>
+			</li>
+  			<li class="nivel1"><a href="#3" class="nivel1">All-Stars</a>
+				<ul class="nivel2">
+					<li class="nivel2"><a href="#31" class="nivel2">Conferencia Este</a></li>
+					<li class="nivel2"><a href="#31" class="nivel2">Conferencia Oeste</a></li>
+				</ul>
+			</li>
+			<li class="nivel1">
+				<a href="#4" class="nivel1">Play Offs</a>
+			</li>
+			<li class="nivel1">
+				<a href="#5" class="nivel1">Noticias</a>
+			</li>
+		</ul>
+	</nav>
+	<div id="contenido">
+	</div>
+	<div id="contenido2">
+		<div id="contenido21"><a href id="contenido21">
+			<a href="AdiosKobe.html" class="kobe">Adios al icono mundial de baloncesto</a>
+		</a></div>
+	</div>
+	<iframe id="primero" src="https://giphy.com/embed/f4UuGkf6RaHHBU5Qyo" width="" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/Artdifusao-digital-marketing-publicity-f4UuGkf6RaHHBU5Qyo"></a></p>
+	<iframe id="segundo" src="https://giphy.com/embed/hrLFBqaUrkdrUSa7hl" width="305" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/GrupoCorreos-app-nuevaappcorreos-correosapp-hrLFBqaUrkdrUSa7hl"></a></p>
+	<article id="noticias">
+		<div id="articulo">
+			<img src="imagenes/indiana.jpg"></img>
+			<a href>Oladipo listo para volver</a>
+			<div id="articulo2">
+				<a href="IndianaPacers.html">Indiana Pacers</a>
+			</div>
+		</div>
+		<div id="articulo">
+			<img src="imagenes/memphis.jpg"></img>
+			<a href>Los Memphis Grizzlies son mucho más que Ja Morant</a>
+			<div id="articulo2">
+				<a href="MemphisGrizzlies.html">Memphis Grizzlies</a>
+			</div>
+		</div>
+		<div id="articulo">
+			<img src="imagenes/willy.png"></img>
+			<a href>Primer doble-doble de Willy Hernangómez</a>
+			<div id="articulo2">
+				<a href="CharlotteHornets.html">Charlotte Hornets</a>
+			</div>
+		</div>
+		<div id="articulo">
+			<img src="imagenes/phoenix.jpg"></img>
+			<a href>Los Phoenix Suns de Devin Booker</a>
+			<div id="articulo2">
+				<a href="PhoenixSuns.html">Phoenix Suns</a>
+			</div>
+		</div>
+		<div id="articulo">
+			<img src="imagenes/boston.jpg"></img>
+			<a href>Boston Celtics vulnera la fortaleza de Miami Heat</a>
+			<div id="articulo2">
+				<a href="BostonCeltics.html">Boston Celtics</a>
+			</div>
+		</div>
+		<div id="articulo">
+			<img src="imagenes/middleton.jpg"></img>
+			<a href>El impresionante duelo de Khris Middleton y Bradley Beal</a>
+			<div id="articulo2">
+				<a href="MilwaukeeBucks.html">Milwaukee Bucks</a>
+			</div>
+		</div>
+	</article>
+	<footer id="tercero">
+	</footer>
+</body>
+</html>
